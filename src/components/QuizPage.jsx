@@ -28,7 +28,7 @@ const QuizPage = ({ subject, handleRestart }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get(`https://my-json-server.typicode.com/SupremeAcharya/intern/${subject}`);
+      const response = await axios.get(`https://my-json-server.typicode.com/SupremeAcharya/quiz_app/${subject}`);
       setData(response.data);
     };
 

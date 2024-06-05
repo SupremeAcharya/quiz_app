@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "https://my-json-server.typicode.com/SupremeAcharya/intern --watch db.json",
+    "server": "https://my-json-server.typicode.com/SupremeAcharya/quiz_app --watch db.json",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

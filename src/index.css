@@ -195,9 +195,88 @@
 .option-chosen {
     background-color: var(--blue);
 }
+.option-chosen:hover {
+    background-color: var(--blue);
+    color: var(--primary-text-color);
+}
 
 .error {
     color: rgb(255, 0, 0);
     margin-right: 25%;
     font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+    .loading-page {
+        margin-block: auto;
+    }
+
+    .toggle-container {
+    right: 17%;
+    /* left: 50%; */
+    top: 3%; 
+    }
+    .navigation {
+        height: 10vh;
+    }
+    .welcome-text-area {
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width:100%;
+        padding-top: 3rem;
+    }
+    .quiz-section {
+        height: 90vh;
+        margin-top: .5rem;
+    }
+    
+    .quiz-section, .subject {
+        flex-direction: column;
+        align-items: center;
+    }
+    .subject {
+        flex: 1;
+    }
+    .text {
+        margin-top: 3rem;
+    }
+    .topic, .text .quest{
+        margin: 0;
+    }
+    .topic {
+        margin-bottom: .5rem;
+        font-size: medium;
+    }
+    .quest {
+        margin: 0;
+        height: auto;
+        width: 50%;
+        font-size: larger;
+    }
+    .progress-bar-container {
+        margin-inline: 1rem;
+        /* margin-block: 0;  */
+        margin:1rem 0;
+        width: 50%;
+    }
+
+    .each-Subject, .button {
+        font-size: large;
+        min-width: 10rem;
+        min-width: 250px;
+    }
+
+    .restart {
+        width: 50%;
+        font-size: larger;
+        margin-top: 3rem;
+    }
+
+    p {
+        margin-top: 5rem;
+    } 
+    
 }

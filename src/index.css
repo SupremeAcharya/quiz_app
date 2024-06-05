@@ -195,7 +195,10 @@
 .option-chosen {
     background-color: var(--blue);
 }
-
+.option-chosen:hover {
+    background-color: var(--blue);
+    color: white;
+}
 .error {
     color: rgb(255, 0, 0);
     margin-right: 25%;
